@@ -56,6 +56,8 @@ tensorflow==2.7.0
 tensorflow-estimator==2.7.0
 tensorflow-io-gcs-filesystem==0.23.1
 termcolor==1.1.0
+tf-estimator-nightly==2.9.0.dev2021122309
+tf-nightly-gpu==2.9.0.dev20211223
 tqdm==4.62.3
 typing_extensions==4.0.1
 urllib3==1.26.7
@@ -63,3 +65,6 @@ virtualenv==20.10.0
 Werkzeug==2.0.2
 wrapt==1.13.3
 WTForms==3.0.1
+zipp==3.6.0
+zope.event==4.5.0
+zope.interface==5.4.0
