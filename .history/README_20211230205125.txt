@@ -1,5 +1,0 @@
-Dự án cuối kì học phần NLP
-Đề tài: Xây dựng ứng dụng website chatbot hỗ trợ, tư vấn khách hàng mua sắm
-
-Thành viên:
-1. Nguyễn 
