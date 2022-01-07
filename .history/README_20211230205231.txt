@@ -1,0 +1,8 @@
+Dự án cuối kì học phần NLP
+Đề tài: Xây dựng ứng dụng website chatbot hỗ trợ, tư vấn khách hàng mua sắm
+
+Thành viên:
+1. Nguyễn Hửu Đăng - 51900784
+2. Đào Nhật Tân - 519008292
+3. Nguyễn Tấn Anh - 51900477
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{url_for('static',filename='css/register.css')}}" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <form method="POST" action="/register">
+      <div class="img_login">
+        <img src="{{url_for('static',filename='img/logo.png')}}" />
+      </div>
+      <h3>Register</h3>
+      <h3>Register</h3>
+
+      <label for="username">Username</label>
+      <input type="text" placeholder="Username" name="name" id="username" />
+
+      <label for="Email">Email</label>
+      <input type="text" placeholder="Email" name="mail" id="mail" />
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" name="password" id="password" />
+
+      <button class="btn-register" type="submit" value="Login">Register</button>
+      <button class="btn-login">
+        <a href="/login">Back to login</a>
+      </button>
+    </form>
+  </body>
+</html>
+<script>
+  $(document).ready(function () {
+    $("form").attr("autocomplete", "off");
+  });
+</script>
